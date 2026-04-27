@@ -1,0 +1,75 @@
+.profile-page { padding-bottom: 48px; }
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.profile-avatar {
+  width: 64px;
+  height: 64px;
+  background: #2563eb;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.profile-info { flex: 1; }
+.profile-name { font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 700; color: #0f172a; }
+.profile-role { color: #64748b; font-size: 0.9rem; margin-top: 2px; }
+
+.profile-section { }
+
+.profile-course-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.profile-course-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
+
+.profile-course-title { font-weight: 600; color: #0f172a; font-size: 0.95rem; }
+
+.progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: #2563eb;
+  border-radius: 3px;
+  transition: width 0.4s;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #0f172a;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  border: 2px solid #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.btn-outline:hover { border-color: #2563eb; color: #2563eb; }

@@ -1,0 +1,54 @@
+.courses-page { padding-bottom: 48px; }
+
+.courses-header {
+  margin-bottom: 32px;
+}
+
+.page-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.page-subtitle { color: #64748b; font-size: 1rem; }
+
+.courses-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 13px 18px;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-input:focus { border-color: #2563eb; }
+
+.category-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.cat-tab {
+  padding: 7px 16px;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  background: white;
+  font-family: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #64748b;
+  transition: all 0.2s;
+}
+.cat-tab:hover { border-color: #2563eb; color: #2563eb; }
+.cat-tab.active { background: #2563eb; color: white; border-color: #2563eb; }
+
+.results-count { color: #64748b; font-size: 0.9rem; margin-bottom: 20px; }
+
+.no-results { text-align: center; color: #64748b; padding: 60px 20px; font-size: 1.1rem; }
